@@ -5,6 +5,7 @@ const PORT = 5000
 
 app.use(cors({
   origin: "http://localhost:5500",
+  methods: ['GET','POST'],
 }))
 
 // response
