@@ -7,10 +7,6 @@ app.use(cors({
   origin: "http://localhost:5500",
 }))
 
-// app.get('/', (req, res) => {
-//   res.send("Hello")
-// })
-
 // response
 app.get("/data", (req, res) => {
   res.json({ name: "私の名前", age: 23 })
